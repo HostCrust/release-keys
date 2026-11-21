@@ -17,8 +17,8 @@ the same origin that served the script would prove nothing if that origin were c
 - Expires: 2028-11-20
 
 Always check the fingerprint above before trusting an imported copy. The private signing
-key is held offline and is never on any server, so a compromise of the app origin cannot
-forge a valid signature.
+key is not on any server — it stays in the owner's local keyring — so a compromise of the
+app origin cannot forge a valid signature.
 
 ## Verify the agent installer
 
